@@ -56,7 +56,7 @@ def boyer_moore(text, pattern):
 
 # Тесты
 if __name__ == "__main__":
-    print("Тест 1:", boyer_moore("ABAAABCD", "ABC"))     # → [5]
+    print("Тест 1:", boyer_moore("ABAAABCD", "ABC"))     # → [4]
     print("Тест 2:", boyer_moore("HERE IS A SIMPLE EXAMPLE", "EXAMPLE"))  # → [17]
     print("Тест 3:", boyer_moore("AABAACAADAABAABA", "AABA"))  # → [0, 9, 12]
     print("Тест 4:", boyer_moore("AABAACAADA", "BBB"))  # → [Пусто(не содержится)]
